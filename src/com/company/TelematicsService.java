@@ -63,7 +63,7 @@ public class TelematicsService {
         }
 
         htmlString.append(Dashboard.HTML_FOOTER);
-        htmlString.append(Dashboard.TABLE_ROW_HTML);
+       // htmlString.append(Dashboard.TABLE_ROW_HTML);
 
         try (PrintWriter out = new PrintWriter("Dashboard.html")) {
             out.println(htmlString.toString());
